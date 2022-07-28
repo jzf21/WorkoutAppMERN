@@ -3,17 +3,17 @@
 
 /* layout */
 :root {
-  --primary: #36382E;
+  --primary: #FF8FB1;
   --error: #e7195a;
 }
 body {
-  background: #333232;
+  background: #7A4495;
   margin: 0;
   font-family: "Poppins";
-  overflow: hidden;
+  
 }
 header {
-  background: #36382E;
+  background: #;
 }
 header .container {
   max-width: 1400px;
@@ -24,7 +24,7 @@ header .container {
   justify-content: space-between;
 }
 header a {
-  color: #5DA271;
+  color: #FF8FB1;
   text-decoration: none;
 }
 .pages{
@@ -40,12 +40,12 @@ header a {
   gap: 100px;
 }
 .workout-details {
-  background: #5DA271;
+  background: ;
   border-radius: 4px;
   margin: 20px auto;
   padding: 20px;
   position: relative;
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+  box-shadow: rgba(245, 152, 237, 0.25) 0px 54px 55px, rgba(255, 59, 216, 0.12) 0px -12px 30px, rgba(249, 172, 227, 0.12) 0px 4px 6px, rgba(244, 50, 199, 0.17) 0px 12px 13px, rgba(255, 154, 223, 0.09) 0px -3px 5px;
 }
 .workout-details h4 {
   margin: 0 0 10px 0;
@@ -53,9 +53,10 @@ header a {
   color: var(--primary);
 }
 .workout-details p {
+  font-weight: 700;
   margin: 0;
-  font-size: 0.9em;
-  color: #F7F7FF;
+  font-size: 0.95em;
+  color: #FCE2DB;
 }
 .workout-details span {
   position: absolute;
@@ -73,11 +74,11 @@ label, input {
   display: block;
 }
 label{
-  color: #5DA271;
+  color: #FF8FB1;
   font-weight: 1000;
 }
 h3{
-  color:#5DA271 ;
+  color:#FF8FB1 ;
 }
 input {
   padding: 10px;
@@ -89,7 +90,7 @@ input {
   box-sizing: border-box;
 }
 form button {
-  background: #5DA271;
+  background: #FF8FB1;
   border: 0;
   color: #F7F7FF;
   padding: 10px;
@@ -107,23 +108,28 @@ div.error {
   margin: 20px 0;
 }
 .workout-details span{
-  background-color: #DF2935;
-  color: #ddd;
+  background-color: #7A4495;
+  color: #FF8FB1;
   border-radius: 5px;
+  outline-style: solid;
+  outline-color: #FF8FB1;
 }
 
 .outline{
   margin-top: 20px;
-  height:70% ;
+  height:60% ;
   outline-style: solid;
-  outline-color: #5DA271;
+  outline-color: #FF8FB1;
   padding: 10%;
   padding-bottom: 0;
   border-radius: 20px;
+ 
+  box-shadow: rgba(245, 152, 237, 0.25) 0px 54px 55px, rgba(255, 59, 216, 0.12) 0px -12px 30px, rgba(249, 172, 227, 0.12) 0px 4px 6px, rgba(244, 50, 199, 0.17) 0px 12px 13px, rgba(255, 154, 223, 0.09) 0px -3px 5px;
 }
 .workout-details .datecreated{
-  color: rgb(0, 0, 0);
+  color: #B270A2;
   margin-top: 5px;
+  
 
 
 }
